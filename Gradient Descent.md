@@ -12,6 +12,6 @@ Now the descent part. The gradient value of the error function represents direct
 
 The graph of an error function is observed to be of ***convex*** shape. To find the minimum value of error for a model, we need to find the minima (minimum value) of the error function. The gradient shows the direction we should go to achieve this.
 
-Another helping hand in gradually finding the minima is the learning rate hyperparameter (α or ή). The learning rate minimizes the error with consistent measured steps so that it does not miss the minima or a point nearest to the minima.
+Another helping hand in gradually finding the minima is the learning rate hyperparameter (α or ή). The learning rate helps to control the rate of minimizing the error with consistent measured steps so that it does not miss the minima or a point nearest to the minima.
 
 <img width="649" height="446" alt="gradient descent diagram" src="https://github.com/user-attachments/assets/6d538f12-a4fe-44e0-a6a1-e6c8745faa94" />
