@@ -25,6 +25,6 @@ The RNNs go word by word (or element by element) for each sequence which would l
 
 The mechanism of transformers, proposed in a 2017 research paper "Attention is all you need", suggests parallel processing of sequential data instead of sequential processing like RNNs. To keep track of the position or order of the words (or elements), use of **positional embeddings** was suggested.
 
-The self-attention mechanism in transformers assigns weights to each word based on their relationship with other words in the sequence. The relationship here is calculated using *dot-product similarity*. The transformers decide on the output based on the highly weighted words.
+The self-attention mechanism in transformers assigns weights to each word based on their relationship with other words in the sequence. The relationship here is calculated using <ins>*dot-product similarity*</ins>. The transformers decide on the output based on the highly weighted words.
 
 The transformers serve as the foundation for models like GPT (Generative Pre-trained Transformer) and BERT (Bidirectional Encoder Representations from Transformers).
