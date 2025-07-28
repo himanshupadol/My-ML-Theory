@@ -19,3 +19,12 @@ The advantage that RNN has is of memory. RNNs use memory to store order and cont
 	...  
 	...  
 	blind --> (Vector for Context & Position of 'blind') + h8 = ninth hidden state --> h9 --> output of first row
+
+## The Transformers
+The RNNs go word by word (or element by element) for each sequence which would lead to huge processing time if they are used for long texts or a whole document of multiple pages of data.
+
+The mechanism of transformers, proposed in a 2017 research paper "Attention is all you need", suggests parallel processing of sequential data instead of sequential processing like RNNs. To keep track of the position or order of the words (or elements), use of **positional embeddings** was suggested.
+
+The self-attention mechanism in transformers assigns weights to each word based on their relationship with other words in the sequence. The relationship here is calculated using *dot-product similarity*. The transformers decide on the output based on the highly weighted words.
+
+The transformers serve as the foundation for models like GPT (Generative Pre-trained Transformer) and BERT (Bidirectional Encoder Representations from Transformers).
